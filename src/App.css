@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  background-color: #272B30;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+h2 {
+  margin: 0;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/*navigation*/
+
+.navigation{
+  background-color: #343a40;
+  display: flex;
+}
+.navigation-wrap{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.navigation-wrap h2{
+  color: #fff;
+  margin-right: 20px;
+}
+.navigation-wrap a{
+  color: rgba(255,255,255,.5);
+  transition: .4s;
+  text-decoration: none;
+}
+.navigation-wrap a:hover{
+  color: rgba(255,255,255,1);
+}
+
+/*navigation*/
+
+/*form*/
+
+.form{
+  margin-top: 50px;
+  padding: 50px 0 50px;
+  background-color: #343a40;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto 15px;
+}
+.form-group label{
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.form-group input{
+  background: transparent;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  color: #fff;
+}
+.form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #17a2b8;
+  border: none;
+  border-radius: 5px;
+  margin: 30px auto 0;
+  width: 200px;
+  height: 40px;
+}
+
+/*form*/
+
+
+/*show*/
+
+.show-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 0 30px;
+  height: 100%;
+}
+
+.show-element {
+  border: 3px solid #95999c;
+  padding: 30px;
+  max-width: 300px;
+  width: 100%;
+  color: #fff;
+  font-size: 25px;
+}
+
+.show-element p {
+  margin: 0 0 10px;
+}
+
+/*show*/
+
+
+.user-wrap {
+}
+.user-menu {
+  max-width: 220px;
+  width: 100%;
+  border-right: 1px solid;
+  min-height: 100vh;
+  padding: 50px 0 0 30px;
+}
+
+.user-menu li {
+  margin: 0 0 30px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 50px 0 0;
+  background-color: #343a40;
+}
+
+.user-list li {
+  margin: 0 15px 30px 15px;
+  border: 3px solid #95999c;
+  padding: 15px;
+  width: 27.8%;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.user-list li a{
+  font-size: 14px;
+  margin-right: 10px;
+  color: rgba(255,255,255,.5);
+  transition: .4s;
+  text-decoration: none;
+}
+.user-list li a:hover{
+  color: rgba(255,255,255,1);
+}
+.delete-wrap {
+  padding: 50px 0 0 30px;
+  height: 100%;
+}
+
+.delete-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.delete-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid red;
+  padding: 15px;
+  margin: 0 20px 20px 0;
+  max-width: 300px;
+  width: 100%;
+}
+.delete-element button {
+  margin-left: 10px;
+}
+.delete-element p {
+  margin: 0;
+}
